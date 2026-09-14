@@ -9,13 +9,15 @@ Cada concepto o capítulo del libro se practica en un **repo de Git independient
 - Aislar cada práctica y su evolución.
 - Historial de commits limpio y enfocado por tema.
 - Comparar enfoques entre ejercicios.
-- Caso de estudio: [`hello-world`](hello-world/) — primer programa, "Hello world!".
+- Caso de estudio: [`hello-world`](1.-hello-world/) — primer programa, "Hello world!".
+- [`guessing-game`](2.-guessing-game/) — juego de adivinar un número (capítulo 2).
 
 ## Estructura
 
 ```
 Rust-practice/
-├── hello-world/          # Práctica: Hello World (capítulos 1-2)
+├── 1.-hello-world/       # Práctica: Hello World (capítulos 1-2)
+├── 2.-guessing-game/     # Práctica: Guessing Game (capítulo 2)
 ├── <tema>/               # Próximas prácticas, cada una con su propio repo Git
 └── README.md             # Este archivo
 ```
@@ -43,8 +45,7 @@ git init
 | Capítulo | Tema | Práctica | Estado |
 |----------|------|----------|--------|
 | 1 | Getting Started | `hello-world` | ✅ |
-| 2 | Guessing Game | — | ⬜ |
-| 3 | Common Concepts | — | ⬜ |
+| 2 | Guessing Game | `guessing-game` | ✅ |
 | ... | ... | ... | ... |
 
 Link al libro: https://doc.rust-lang.org/book/title-page.html
